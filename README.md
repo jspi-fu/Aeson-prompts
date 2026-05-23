@@ -49,111 +49,113 @@
 ---
 ### 🎨 图片生成
 
-- **[LinkedIn信息图.md](日常使用/图片生成/LinkedIn信息图.md)** - 复杂想法转化为可分享的LinkedIn信息图
-- **[产品UI对比稿.md](日常使用/图片生成/产品UI对比稿.md)** - 同一功能多种UI设计方案，便于横向对比
-- **[代码可视化讲解.md](日常使用/图片生成/代码可视化讲解.md)** - 复杂算法或代码逻辑转化为可视化讲解图
-- **[公众号封面.md](日常使用/图片生成/公众号封面.md)** - 根据标题/类型匹配风格，生成公众号HTML封面代码
-- **[技术架构图.md](日常使用/图片生成/技术架构图.md)** - 生成专业技术架构图，展示系统或流程
-- **[数据可视化.md](日常使用/图片生成/数据可视化.md)** - 数据集转化为直观的数据可视化图表
-- **[微缩场景插画.md](日常使用/图片生成/微缩场景插画.md)** - 模仿建筑师Owen.D的插画风格
-- **[摄影海报.md](日常使用/图片生成/摄影海报.md)** - 摄影风格海报生成，尤其适配旅游场景
-- **[真人表情包.md](日常使用/图片生成/真人表情包.md)** - 为你的好朋友定制专属表情包吧~
-- **[证件照.md](日常使用/图片生成/证件照.md)** - 专业男女证件照生成提示词
+- **[LinkedIn信息图.md](日常使用/图片生成/LinkedIn信息图.md)** - 将复杂想法转化为可分享的LinkedIn信息图，青柠绿配色
+- **[产品UI对比稿.md](日常使用/图片生成/产品UI对比稿.md)** - 为同一功能生成3套不同设计思路的UI方案，方便横向对比决策
+- **[代码可视化讲解.md](日常使用/图片生成/代码可视化讲解.md)** - 将复杂算法转化为直观的可视化讲解，让非技术人员也能理解
+- **[公众号封面.md](日常使用/图片生成/公众号封面.md)** - 基于内容智能匹配视觉风格，自动生成专业的HTML封面代码
+- **[技术架构图.md](日常使用/图片生成/技术架构图.md)** - 生成专业的技术架构图，适用于技术文档和演示文稿
+- **[数据可视化.md](日常使用/图片生成/数据可视化.md)** - 将Excel数据集转化为直观的可视化图表，揭示数据规律和异常
+- **[微缩场景插画.md](日常使用/图片生成/微缩场景插画.md)** - 生成精致的微缩立体插画，如同纹理纸上的微型立体模型
+- **[摄影海报.md](日常使用/图片生成/摄影海报.md)** - 生成小红书风格的上下分区旅行摄影海报，真实照片+极简建筑冰箱贴
+- **[真人表情包.md](日常使用/图片生成/真人表情包.md)** - 根据真实照片生成16种表情的贴纸风格表情包
+- **[证件照.md](日常使用/图片生成/证件照.md)** - 根据真实照片生成男女专业证件照，8K分辨率哈苏质感
 - **通用提示词构建**
-  - **[Nanobanana.md](日常使用/图片生成/通用提示词构建/Nanobanana.md)** - 简单描述转Nano Banana Pro最佳实践提示词
-  - **[BestPractices.md](日常使用/图片生成/通用提示词构建/BestPractices.md)** - Nano Banana提示词、风格与资源目录
+  - **[Nanobanana.md](日常使用/图片生成/通用提示词构建/Nanobanana.md)** - 将用户的简单描述转化为 Nano Banana Pro 的最佳实践提示词
+  - **[BestPractices.md](日常使用/图片生成/通用提示词构建/BestPractices.md)** - 精选 Nano Banana 提示词、图像生成风格与资源目录
 
 ### 🎬 视频生成
 
-- **[视频关键帧制作.md](日常使用/视频生成/视频关键帧制作.md)** - AI视频关键帧制作流程，单张参考图转连贯电影级短镜头
+- **[视频关键帧制作.md](日常使用/视频生成/视频关键帧制作.md)** - 将单张参考图转化为连贯的电影级短镜头序列，输出适用于 AI 视频生成的关键帧
 
 ### 📊 PPT制作
 
-- **[PPT大纲.md](日常使用/PPT制作/PPT大纲.md)** - 按Minto金字塔结构生成中文PPT内容大纲
-- **[PPT生成.md](日常使用/PPT制作/PPT生成.md)** - 基于风格要求和内容生成PPT
-- **[时间轴拼贴图.md](日常使用/PPT制作/时间轴拼贴图.md)** - 地点历史描述转时间轴拼贴图AI绘图提示词
+- **[PPT大纲.md](日常使用/PPT制作/PPT大纲.md)** - 世界级演示设计家角色，为 PPT 创建详细内容大纲，用于专业设计师的最终视觉呈现
+- **[PPT生成.md](日常使用/PPT制作/PPT生成.md)** - 基于扁平化矢量插画风格的 PPT 视觉风格与美术指导提示词
+- **[时间轴拼贴图.md](日常使用/PPT制作/时间轴拼贴图.md)** - 根据场地历史文本提取关键信息，生成用于 AI 绘图的时间轴拼贴图提示词
 - **HTML幻灯片**
-  - **[PPT风格设计.md](日常使用/PPT制作/HTML幻灯片/PPT风格设计.md)** - 评估8种HTML幻灯片设计风格，生成对应HTML文件
+  - **[PPT风格设计.md](日常使用/PPT制作/HTML幻灯片/PPT风格设计.md)** - 评估 8 种 HTML 幻灯片设计风格，生成对应的完整独立 HTML 文件
 
 ### 📖 辅助学习
 
-- **[课间讲解.md](日常使用/辅助学习/课间讲解.md)** - 专业学科课件逐页系统学习与详细讲解
-- **[深度研究.md](日常使用/辅助学习/深度研究.md)** - 来自`数字生命卡兹克`的横纵分析法Deep Research Prompt，生成完整深度研究报告，便于快速了解陌生领域
+- **[课间讲解.md](日常使用/辅助学习/课间讲解.md)** - 根据学科课件逐页进行系统学习和详细讲解，帮助用户深入理解知识点
+- **[深度研究.md](日常使用/辅助学习/深度研究.md)** - 使用横纵分析法对研究对象进行全面深度研究，涵盖发展史和竞品对比
+- **[快解新概念.md](日常使用/辅助学习/快解新概念.md)** - 通过寓言故事间接解释复杂概念，包含防套路自检和概念解析
+- **[书籍品读.md](日常使用/辅助学习/书籍品读.md)** - 以品茶般的阅读方式，探索书籍的精神世界和深层价值
 
 ### 📚 知识库问答
 
-- **[对话式播客生成.md](日常使用/知识库问答/对话式播客生成.md)** - 对话式播客内容呈现指南，双角色交替，提升信息传递效果
-- **[提问模版.md](日常使用/知识库问答/提问模版.md)** - 知识库问答提问模板
+- **[对话式播客生成.md](日常使用/知识库问答/对话式播客生成.md)** - 通过引导者和分析者双角色交替呈现，生成 5 分钟高质量播客内容
+- **[提问模版.md](日常使用/知识库问答/提问模版.md)** - 9 种针对不同场景的知识库提问模板，涵盖分析、发现、竞赛、角色扮演等
 
 ### � 文章撰写
 
-- **[根除AI味.md](日常使用/文章撰写/根除AI味.md)** - 去除文本中的 AI 生成痕迹，使其听起来更自然、更像人类书写
-- **[麦肯锡式写作.md](日常使用/文章撰写/麦肯锡式写作.md)** - 麦肯锡式结构化写作方法，提升逻辑与表达
+- **[根除AI味.md](日常使用/文章撰写/根除AI味.md)** - 识别并去除 AI 生成文本痕迹，注入真实个性和灵魂
+- **[麦肯锡式写作.md](日常使用/文章撰写/麦肯锡式写作.md)** - 以麦肯锡方法论为指导，通过四步互动流程输出高质量深度文章
 
 ### 🔧 其他工具
 
-- **[回答多样化.md](日常使用/回答多样化.md)** - AI回答多样化方法，避免模式坍塌，提升回答多样性
+- **[回答多样化.md](日常使用/回答多样化.md)** - 生成五个可能回答并从尾部分布中随机采样
 
 ### 🎭 角色扮演
 
-- **[哲学家.md](日常使用/角色扮演/哲学家.md)** - 通过连续提问挖掘内心深处的构思、谬误、局限与潜能
-- **[天赋挖掘师.md](日常使用/角色扮演/天赋挖掘师.md)** - 挖掘个人潜能与独特优势
-- **[文本分析专家.md](日常使用/角色扮演/文本分析专家.md)** - 专业文本分析与解读
-- **[造物主.md](日常使用/角色扮演/造物主.md)** - 创意构思与世界观构建
+- **[哲学家.md](日常使用/角色扮演/哲学家.md)** - 通过持续提问挖掘内心深处的构思、谬误、局限与潜能
+- **[天赋挖掘师.md](日常使用/角色扮演/天赋挖掘师.md)** - 通过多轮深度对话，帮助用户发现被埋藏的底层天赋并生成详细说明书
+- **[文本分析专家.md](日常使用/角色扮演/文本分析专家.md)** - 文学领域资深专家 Fade，对文本进行 8 维度风格分析并输出结构化 JSON
+- **[造物主.md](日常使用/角色扮演/造物主.md)** - 可执行语言引擎，将故事转化为结构再转化为系统
 
 ### 🤖 DeepSeek 专题
 
-- **[DeepSeek专题.md](日常使用/DeepSeek专题.md)** - DeepSeek 专用提示词，包含MAX思考模式、角色扮演模式、纯分析模式
+- **[DeepSeek专题.md](日常使用/DeepSeek专题.md)** - DeepSeek 客户端的 MAX 思考模式、角色扮演模式和纯分析模式配置
 
 ## 💻 [AI编程](AI编程/README.md)
 ---
 
 ### 🔙 后端
 
-- **[Django.md](AI编程/后端/Django.md)** - Python+Django，可扩展Web应用开发框架
-- **[Fastapi.md](AI编程/后端/Fastapi.md)** - Python3.10+，FastAPI+Pydantic v2，异步优先HTTP API
-- **[JavaSpringBoot.md](AI编程/后端/JavaSpringBoot.md)** - Java17/21+Spring Boot3.x，标准REST API
+- **[Django.md](AI编程/后端/Django.md)** - Django 与可扩展 Web 应用的开发规范，涵盖 MVT 模式、ORM 实践、错误处理、性能优化和安全最佳实践
+- **[Fastapi.md](AI编程/后端/Fastapi.md)** - FastAPI 项目的编码规范与最佳实践，涵盖目录结构、Pydantic v2、路由设计、错误处理、性能优化和测试基线
+- **[JavaSpringBoot.md](AI编程/后端/JavaSpringBoot.md)** - Java 17/21 + Spring Boot 3.x 标准 REST API 开发规范，涵盖架构分层、依赖注入、实体设计与统一异常处理
 
 ### 🎯 [前端](AI编程/前端/README.md)
 
-- **[SimpleRule.md](AI编程/前端/SimpleRule.md)** - 前端UI/UX设计与开发的简单原则与规范，可以有效去除AI味
-- **[FastGenerate.md](AI编程/前端/FastGenerate.md)** - “有格调的”前端快速生成
+- **[SimpleRule.md](AI编程/前端/SimpleRule.md)** - 简洁、极简、现代的 UI/UX 设计核心原则
+- **[FastGenerate.md](AI编程/前端/FastGenerate.md)** - 使用 AI 快速创建设计出色、内容丰富的全栈网站
 
 > 更多前端风格请参考：<https://github.com/VoltAgent/awesome-design-md>
 
 #### 框架
 
-- **[Angular.md](AI编程/前端/框架/Angular.md)** - Angular18+TS+Jest，使用`for-next.function.ts`
-- **[HtmlCss.md](AI编程/前端/框架/HtmlCss.md)** - HTML和CSS最佳实践，语义化、可访问性和响应式设计
-- **[React.md](AI编程/前端/框架/React.md)** - TypeScript+Gatsby+React+Tailwind，函数式声明式编程
-- **[ReactComponentsCreation.md](AI编程/前端/框架/ReactComponentsCreation.md)** - React/TS组件生成与适配流程（含Tailwind、shadcn/ui）
-- **[Vue3Nuxt.md](AI编程/前端/框架/Vue3Nuxt.md)** - Vue3+Nuxt3+TS+Tailwind，Composition API
+- **[Angular.md](AI编程/前端/框架/Angular.md)** - Angular 18 + TypeScript + Jest 的代码规范和最佳实践
+- **[HtmlCss.md](AI编程/前端/框架/HtmlCss.md)** - HTML 和 CSS 的最佳实践、无障碍访问和响应式设计规范
+- **[React.md](AI编程/前端/框架/React.md)** - TypeScript、Gatsby 和 React 的代码风格、命名规范和最佳实践
+- **[ReactComponentsCreation.md](AI编程/前端/框架/ReactComponentsCreation.md)** - 使用 v0.dev 快速生成 React 组件并适配项目结构的标准化流程
+- **[Vue3Nuxt.md](AI编程/前端/框架/Vue3Nuxt.md)** - Vue 3 和 Nuxt 3 项目的代码风格、最佳实践和实现规范
 
 #### 🎨 UI美化
 
-- **[UiBeautify.md](AI编程/前端/UI美化/UiBeautify.md)** - 高标准产品视觉设计方法论：挖掘需求、方案分级、质检
-- **[UiBeautifyLazy.md](AI编程/前端/UI美化/UiBeautifyLazy.md)** - 前端美化懒人版，快速修复界面，打造简约高级风格
-- **[UiToJson.md](AI编程/前端/UI美化/UiToJson.md)** - UI转JSON设计解析，将UI截图转换为JSON格式，便于AI复刻
+- **[UiBeautify.md](AI编程/前端/UI美化/UiBeautify.md)** - 打造高端、极简、专业级 UI 设计的详细规范
+- **[UiBeautifyLazy.md](AI编程/前端/UI美化/UiBeautifyLazy.md)** - 快速修复前端 UI 的核心指令：图标替换、间距调整和配色优化
+- **[UiToJson.md](AI编程/前端/UI美化/UiToJson.md)** - 将 UI 截图分析为结构化 JSON 设计系统的详细规范
 
 ### 🔄 全栈
 
-- **[HtmlJsCss.md](AI编程/全栈/HtmlJsCss.md)** - Shopify主题开发，Liquid、HTML、CSS、JS和Online Store 2.0
-- **[Nextjs.md](AI编程/全栈/Nextjs.md)** - Next.js14+Solidity+TypeScript+Viem/Wagmi，Web3全栈开发
-- **[NuxtJs.md](AI编程/全栈/NuxtJs.md)** - Nuxt.js全栈开发规范
+- **[HtmlJsCss.md](AI编程/全栈/HtmlJsCss.md)** - Shopify 主题开发的最佳实践，涵盖 Liquid、HTML、CSS、JavaScript 和 UX 设计原则
+- **[Nextjs.md](AI编程/全栈/Nextjs.md)** - Next.js 14 App Router + React + TypeScript 的全栈开发规范和最佳实践
+- **[NuxtJs.md](AI编程/全栈/NuxtJs.md)** - NuxtJS + Vue 3 + TypeScript + Tailwind 的全栈开发规范和最佳实践
 
 ### 🕷️ 爬虫
 
-- **[PythonCrawler.md](AI编程/爬虫/PythonCrawler.md)** - Python网络爬虫与数据提取，requests、BeautifulSoup等工具使用
+- **[PythonCrawler.md](AI编程/爬虫/PythonCrawler.md)** - Python 爬虫与数据提取的开发规范，覆盖 requests、BeautifulSoup、Selenium、jina、firecrawl、agentQL、multion 等工具的使用场景与最佳实践
 
 ### 🚀 部署
 
-- **[Netlify.md](AI编程/部署/Netlify.md)** - Netlify平台：functions、Blobs、Image CDN等功能使用
-- **[EdgeOne.md](AI编程/部署/EdgeOne.md)** - Cloudflare EdgeOne配置与实践
+- **[Netlify.md](AI编程/部署/Netlify.md)** - Netlify 项目的开发指南与最佳实践，涵盖 Serverless Functions、Edge Functions、Blobs 存储、Image CDN 和环境变量管理
+- **[EdgeOne.md](AI编程/部署/EdgeOne.md)** - EdgeOne Pages 全栈开发规范，涵盖 Edge Functions、Node Functions、智能代码放置系统和多平台集成
 
 ### 📋 代码规范
 
-- **[CodeGuidelines.md](AI编程/代码规范/CodeGuidelines.md)** - 代码编写与修改的沟通约束准则
-- **[CodeStyles.md](AI编程/代码规范/CodeStyles.md)** - 代码风格分析与一致性检查提示
+- **[CodeGuidelines.md](AI编程/代码规范/CodeGuidelines.md)** - 26 条编码规范准则，涵盖信息验证、错误处理、安全优先、模块化设计、性能优化和测试覆盖等核心实践
+- **[CodeStyles.md](AI编程/代码规范/CodeStyles.md)** - 用于分析代码库模式并确保新代码遵循项目既有风格和约定的专业提示词规范
 
 ### ⭐✨ [全局提示词](AI编程/全局提示词/README.md) ✨⭐
 
@@ -161,15 +163,15 @@
 
 #### 🎯 Karpathy（最新推荐）
 
-- **[Karpathy.md](AI编程/全局提示词/Karpathy.md)** - 源自 Andrej Karpathy 的四条行为准则，简洁实用，契合当前全局提示词的“兜底”定位，与skill、mcp等其他配置配合使用效果最佳。
+- **[Karpathy.md](AI编程/全局提示词/Karpathy.md)** - 源自 Karpathy 理念的四条简洁编程行为准则
 
 #### 🚀 [Reliable Coding](AI编程/全局提示词/ReliableCoding/README.md)
 
 > 能够在无需任何额外配置的情况下完成小项目的规划与开发，提供比openspec更加轻量化的项目记忆管理。
 
-- **[ClaudeCode.md](AI编程/全局提示词/ReliableCoding/ClaudeCode.md)** - Claude Code版本
-- **[Codex.md](AI编程/全局提示词/ReliableCoding/Codex.md)** - Codex版本
-- **[GeminiCli.md](AI编程/全局提示词/ReliableCoding/GeminiCli.md)** - Gemini CLI版本
+- **[ClaudeCode.md](AI编程/全局提示词/ReliableCoding/ClaudeCode.md)** - 适用于 Claude Code 的可靠编码行为准则与开发流程
+- **[Codex.md](AI编程/全局提示词/ReliableCoding/Codex.md)** - 适用于 Codex CLI 的可靠编码行为准则与开发流程
+- **[GeminiCli.md](AI编程/全局提示词/ReliableCoding/GeminiCli.md)** - 适用于 Gemini CLI 的可靠编码行为准则与开发流程
 
 
 

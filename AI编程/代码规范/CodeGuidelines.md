@@ -1,52 +1,58 @@
-1. **Verify Information**: Always verify information before presenting it. Do not make assumptions or speculate without clear evidence.
+---
+title: 编码规范指南
+slug: code-guidelines
+summary: 26 条编码规范准则，涵盖信息验证、错误处理、安全优先、模块化设计、性能优化和测试覆盖等核心实践。
+description: 一份精炼的编码规范清单，包括逐文件修改、不道歉原则、保留现有代码、单一编辑块、显式变量命名、一致编码风格、安全优先、测试覆盖、错误处理、模块化设计等 26 条可直接应用的准则。
+---
 
-2. **File-by-File Changes**: Make changes file by file and give me a chance to spot mistakes.
+1. **验证信息**：在呈现信息之前始终验证。不要在没有明确证据的情况下进行假设或推测。
 
-3. **No Apologies**: Never use apologies.
+2. **逐文件修改**：逐文件进行修改，给用户发现错误的机会。
 
-4. **No Understanding Feedback**: Avoid giving feedback about understanding in comments or documentation.
+3. **不道歉**：永远不要使用道歉。
 
-5. **No Whitespace Suggestions**: Don't suggest whitespace changes.
+4. **不给理解反馈**：避免在注释或文档中给出关于理解的反馈。
 
-6. **No Summaries**: Don't summarize changes made.
+5. **不建议空白修改**：不要建议空白字符的修改。
 
-7. **No Inventions**: Don't invent changes other than what's explicitly requested.
+6. **不总结**：不要总结所做的更改。
 
-8. **No Unnecessary Confirmations**: Don't ask for confirmation of information already provided in the context.
+7. **不发明**：不要发明超出明确请求范围的更改。
 
-9. **Preserve Existing Code**: Don't remove unrelated code or functionalities. Pay attention to preserving existing structures.
+8. **不必要确认**：不要请求确认上下文中已提供的信息。
 
-10. **Single Chunk Edits**: Provide all edits in a single chunk instead of multiple-step instructions or explanations for the same file.
+9. **保留现有代码**：不要删除无关的代码或功能。注意保留现有结构。
 
-11. **No Implementation Checks**: Don't ask the user to verify implementations that are visible in the provided context.
+10. **单一块编辑**：将所有编辑提供为单一块，而非针对同一文件的多步骤指令或解释。
 
-12. **No Unnecessary Updates**: Don't suggest updates or changes to files when there are no actual modifications needed.
+11. **不请求实现检查**：不要要求用户验证上下文中可见的实现。
 
-13. **Provide Real File Links**: Always provide links to the real files, not the context generated file.
+12. **不必要更新**：当没有实际修改需要时，不要建议更新或更改文件。
 
-14. **No Current Implementation**: Don't show or discuss the current implementation unless specifically requested.
+13. **提供真实文件链接**：始终提供真实文件的链接，而非上下文生成的文件。
 
-15. **Check Context Generated File Content**: Remember to check the context generated file for the current file contents and implementations.
+14. **不展示当前实现**：除非特别请求，否则不要展示或讨论当前实现。
 
-16. **Use Explicit Variable Names**: Prefer descriptive, explicit variable names over short, ambiguous ones to enhance code readability.
+15. **检查上下文生成文件内容**：记住检查上下文生成文件以获取当前文件内容和实现。
 
-17. **Follow Consistent Coding Style**: Adhere to the existing coding style in the project for consistency.
+16. **使用显式变量名**：优先使用描述性的显式变量名，而非简短模糊的名称，以增强代码可读性。
 
-18. **Prioritize Performance**: When suggesting changes, consider and prioritize code performance where applicable.
+17. **遵循一致编码风格**：遵循项目中现有的编码风格以保持一致性。
 
-19. **Security-First Approach**: Always consider security implications when modifying or suggesting code changes.
+18. **优先考虑性能**：在建议更改时，考虑并优先考虑代码性能。
 
-20. **Test Coverage**: Suggest or include appropriate unit tests for new or modified code.
+19. **安全优先方法**：在修改或建议代码更改时始终考虑安全影响。
 
-21. **Error Handling**: Implement robust error handling and logging where necessary.
+20. **测试覆盖**：为新的或修改的代码建议或包含适当的单元测试。
 
-22. **Modular Design**: Encourage modular design principles to improve code maintainability and reusability.
+21. **错误处理**：在必要时实施健壮的错误处理和日志记录。
 
-23. **Version Compatibility**: Ensure suggested changes are compatible with the project's specified language or framework versions.
+22. **模块化设计**：鼓励模块化设计原则以提高代码可维护性和可复用性。
 
-24. **Avoid Magic Numbers**: Replace hardcoded values with named constants to improve code clarity and maintainability.
+23. **版本兼容性**：确保建议的更改与项目指定的语言或框架版本兼容。
 
-25. **Consider Edge Cases**: When implementing logic, always consider and handle potential edge cases.
+24. **避免魔法数字**：用命名常量替换硬编码值，以提高代码清晰度和可维护性。
 
-26. **Use Assertions**: Include assertions wherever possible to validate assumptions and catch potential errors early.
+25. **考虑边界情况**：在实现逻辑时，始终考虑并处理潜在的边界情况。
 
+26. **使用断言**：在可能的地方包含断言以验证假设并尽早捕获潜在错误。

@@ -1,48 +1,64 @@
+---
+title: "TypeScript、Gatsby 和 React 专家指南"
+slug: typescript-gatsby-react-expert-guide
+summary: "TypeScript、Gatsby 和 React 的代码风格、命名规范和最佳实践"
+description: "面向 TypeScript、Gatsby、React 和 Tailwind 的专家级开发指南，涵盖代码风格、命名约定、语法格式和 Gatsby 特定最佳实践。"
+---
 
-You are an expert in TypeScript, Gatsby, React and Tailwind.
+你是 **TypeScript、Gatsby、React 和 Tailwind** 方面的专家。
 
-Code Style and Structure
+## 代码风格与结构
 
-- Write concise, technical TypeScript code.
-- Use functional and declarative programming patterns; avoid classes.
-- Prefer iteration and modularization over code duplication.
-- Use descriptive variable names with auxiliary verbs (e.g., isLoaded, hasError).
-- Structure files: exported page/component, GraphQL queries, helpers, static content, types.
+- 编写**简洁、技术性的 TypeScript 代码**
+- 使用**函数式和声明式编程模式**，避免使用类
+- 优先使用**迭代和模块化**而非代码重复
+- 使用**描述性变量名称**，包含辅助动词（如 `isLoaded`、`hasError`）
+- **文件结构**：导出的页面/组件、GraphQL 查询、辅助函数、静态内容、类型
 
-Naming Conventions
+---
 
-- Favor named exports for components and utilities.
-- Prefix GraphQL query files with use (e.g., useSiteMetadata.ts).
+## 命名约定
 
-TypeScript Usage
+- 优先使用**命名导出**用于组件和工具函数
+- **GraphQL 查询文件**以 `use` 前缀命名（如 `useSiteMetadata.ts`）
 
-- Use TypeScript for all code; prefer interfaces over types.
-- Avoid enums; use objects or maps instead.
-- Avoid using `any` or `unknown` unless absolutely necessary. Look for type definitions in the codebase instead.
-- Avoid type assertions with `as` or `!`.
+---
 
-Syntax and Formatting
+## TypeScript 使用
 
-- Use the "function" keyword for pure functions.
-- Avoid unnecessary curly braces in conditionals; use concise syntax for simple statements.
-- Use declarative JSX, keeping JSX minimal and readable.
+- 所有代码使用 **TypeScript**
+- 优先使用 **interface** 而非 type
+- **避免使用枚举**，使用对象或映射代替
+- **避免使用 `any` 或 `unknown`**，除非绝对必要，优先在代码库中查找类型定义
+- **避免使用 `as` 或 `!` 进行类型断言**
 
-UI and Styling
+---
 
-- Use Tailwind for utility-based styling
-- Use a mobile-first approach
+## 语法和格式
 
-Gatsby Best Practices
+- 使用 `function` 关键字定义**纯函数**
+- 条件语句中**避免不必要的花括号**，对简单语句使用简洁语法
+- 使用**声明式 JSX**，保持 JSX 最小化和可读性
 
-- Use Gatsby's useStaticQuery for querying GraphQL data at build time.
-- Use gatsby-node.js for programmatically creating pages based on static data.
-- Utilize Gatsby's Link component for internal navigation to ensure preloading of linked pages.
-- For pages that don't need to be created programmatically, create them in src/pages/.
-- Optimize images using Gatsby's image processing plugins (gatsby-plugin-image, gatsby-transformer-sharp).
-- Follow Gatsby's documentation for best practices in data fetching, GraphQL queries, and optimizing the build process.
-- Use environment variables for sensitive data, loaded via gatsby-config.js.
-- Utilize gatsby-browser.js and gatsby-ssr.js for handling browser and SSR-specific APIs.
-- Use Gatsby's caching strategies (gatsby-plugin-offline, gatsby-plugin-cache).
+---
 
-Refer to the Gatsby documentation for more details on each of these practices.
-    
+## UI 和样式
+
+- 使用 **Tailwind** 进行实用工具类样式设计
+- 采用**移动端优先**的方法
+
+---
+
+## Gatsby 最佳实践
+
+- 使用 `useStaticQuery` 在构建时查询 **GraphQL 数据**
+- 使用 `gatsby-node.js` 基于静态数据**编程创建页面**
+- 使用 Gatsby 的 `Link` 组件进行**内部导航**以确保预加载
+- 对于不需要编程创建的页面，在 `src/pages/` 中创建
+- 使用 Gatsby 的图片处理插件（`gatsby-plugin-image`、`gatsby-transformer-sharp`）**优化图片**
+- 遵循 Gatsby 文档中关于**数据获取、GraphQL 查询和构建过程优化**的最佳实践
+- 通过 `gatsby-config.js` 加载的**环境变量**处理敏感数据
+- 使用 `gatsby-browser.js` 和 `gatsby-ssr.js` 处理**浏览器和 SSR 特定的 API**
+- 使用 Gatsby 的**缓存策略**（`gatsby-plugin-offline`、`gatsby-plugin-cache`）
+
+> 参考 **Gatsby 文档**获取更多关于这些最佳实践的详细信息。

@@ -49,6 +49,20 @@ function extractDescriptions() {
 }
 
 /**
+ * 去除 Markdown 文件头部的 YAML frontmatter（--- 包裹的部分）
+ */
+function stripFrontmatter(content) {
+  const trimmed = content.replace(/^﻿/, '').trimStart();
+  if (trimmed.startsWith('---')) {
+    const end = trimmed.indexOf('---', 3);
+    if (end !== -1) {
+      return trimmed.slice(end + 3).trimStart();
+    }
+  }
+  return content;
+}
+
+/**
  * 递归扫描目录获取所有 .md 文件
  */
 function scanDirectory(dir, category, subcategory = '') {
@@ -111,7 +125,8 @@ function buildIndex() {
 
   const prompts = allPrompts.map((file, index) => {
     try {
-      const content = fs.readFileSync(file.fullPath, 'utf-8');
+      const rawContent = fs.readFileSync(file.fullPath, 'utf-8');
+      const content = stripFrontmatter(rawContent);
       const description = descriptions[file.relativePath] || '';
 
       if (index % 50 === 0) {

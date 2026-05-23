@@ -1,5 +1,8 @@
 ---
-description: Guidelines and best practices for building Netlify projects & sites, including serverless functions, edge functions, functions, storage, and real-world examples
+title: Netlify 开发规范
+slug: netlify
+summary: Netlify 项目的开发指南与最佳实践，涵盖 Serverless Functions、Edge Functions、Blobs 存储、Image CDN 和环境变量管理。
+description: 一份完整的 Netlify 平台开发规范，包括四种计算系统（Serverless、Edge、Background、Scheduled Functions）、Netlify Blobs 对象存储、Image CDN 图片变换、环境变量管理以及本地开发配置等核心实践。
 globs: "**/*.{ts,tsx,js,jsx,toml}"
 ---
 

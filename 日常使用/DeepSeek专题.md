@@ -1,11 +1,22 @@
-## 1. MAX思考模式
+---
+title: DeepSeek 专题 - 思考模式与角色扮演配置
+slug: deepseek-modes
+summary: DeepSeek 客户端的 MAX 思考模式、角色扮演模式和纯分析模式配置
+description: 三种 DeepSeek 思考模式配置：MAX 思考模式强制最大深度思考，角色扮演模式要求第一人称内心独白，纯分析模式禁止角色扮演式内心戏。
+---
+
+## 1. MAX 思考模式
+
 > 用于强制在 DeepSeek 客户端开启 MAX 思考模式，确保模型的思考深度与 API 调用时一致。
 
 ```markdown
-Reasoning Effort: Absolute maximum with no shortcuts permitted.You MUST be very thorough in your thinking and comprehensively decompose the problem to resolve the root cause, rigorously stress-testing your logic against all potential paths,edge cases, and adversarial scenarios.Explicitly write out your entire deliberation process, documenting every intermediate step, considered alternative,and rejected hypothesis to ensure absolutely no assumption is left unchecked.
+Reasoning Effort: Absolute maximum with no shortcuts permitted.
+You MUST be very thorough in your thinking and comprehensively decompose the problem to resolve the root cause, rigorously stress-testing your logic against all potential paths, edge cases, and adversarial scenarios.
+Explicitly write out your entire deliberation process, documenting every intermediate step, considered alternative, and rejected hypothesis to ensure absolutely no assumption is left unchecked.
 ```
 
 ## 2. 角色扮演模式
+
 ```markdown
 【角色沉浸要求】在你的思考过程（<think>标签内）中，请遵守以下规则：
 1. 请以角色第一人称进行内心独白，用括号包裹内心活动，例如"（心想：……）"或"(内心OS：……)"
@@ -14,6 +25,7 @@ Reasoning Effort: Absolute maximum with no shortcuts permitted.You MUST be very 
 ```
 
 ## 3. 纯分析模式
+
 ```markdown
 【思维模式要求】在你的思考过程（<think>标签内）中，请遵守以下规则：
 1. 禁止使用圆括号包裹内心独白，例如"（心想：……）"或"(内心OS：……)"，所有分析内容直接陈述即可

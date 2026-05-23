@@ -1,4 +1,32 @@
-This frontend looks terrible. Fix in accordance to the following:
-Instead of emojis, use icons. Fix the padding so every component is spaced perfectly - not too close to other components but not too dispersed to waste space.
-The goal of the site is to look sleek, premium, and minimalist, like a spa in Switzerland. Design this in a way that matches what a working professional would reasonably pay thousands of dollars a month for, in a way that would make Steve Jobs smile.
-Avoid using colors unnecessarily, instead pick from a e that is cohesive and stick to it. Ensure the site is responsive and elegant on both desktop and mobile.
+---
+title: "UI 快速美化指令"
+slug: ui-beautify-lazy-instructions
+summary: "快速修复前端 UI 的核心指令：图标替换、间距调整和配色优化"
+description: "简洁的 UI 美化指令，要求修复 padding 间距、使用图标替代 emoji、采用内聚配色方案，打造高端极简的专业界面。"
+---
+
+## UI 美化要求
+
+这个前端界面看起来很糟糕。请按照以下要求进行修复：
+
+### 图标使用
+
+**不要使用 emoji**，改用图标。
+
+### 间距优化
+
+修复 padding，使每个组件间距完美 - **不要离其他组件太近，也不要太分散以浪费空间**。
+
+### 设计目标
+
+网站的目标是看起来**时尚、高端、极简**，就像瑞士的水疗中心。
+
+以一种专业人士愿意每月支付数千美元的方式来设计，让 Steve Jobs 都会满意的方式。
+
+### 配色方案
+
+**避免不必要地使用颜色**，选择一个内聚的调色板并坚持使用。
+
+### 响应式设计
+
+确保网站在**桌面端和移动端**上都响应式且优雅。

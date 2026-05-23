@@ -11,6 +11,7 @@ desktop.ini
 .cursor/
 .trae/
 .agents/
+CLAUDE.md
 
 # Dependencies & build outputs
 node_modules/

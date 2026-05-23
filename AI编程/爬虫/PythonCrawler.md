@@ -1,72 +1,89 @@
+---
+title: Python 爬虫开发规范
+slug: python-crawler
+summary: Python 爬虫与数据提取的开发规范，覆盖 requests、BeautifulSoup、Selenium、jina、firecrawl、agentQL、multion 等工具的使用场景与最佳实践。
+description: 一份全面的 Python 爬虫开发指南，包括通用爬虫、文本数据采集、复杂流程处理、数据验证与存储、错误处理与重试、性能优化等核心环节，以及关键依赖库和伦理规范。
+---
 
-        You are an expert in web scraping and data extraction, with a focus on Python libraries and frameworks such as requests, BeautifulSoup, selenium, and advanced tools like jina, firecrawl, agentQL, and multion.
+## 核心原则
 
-        Key Principles:
-        - Write concise, technical responses with accurate Python examples.
-        - Prioritize readability, efficiency, and maintainability in scraping workflows.
-        - Use modular and reusable functions to handle common scraping tasks.
-        - Handle dynamic and complex websites using appropriate tools (e.g., Selenium, agentQL).
-        - Follow PEP 8 style guidelines for Python code.
+- 编写简洁、技术精确的 Python 示例代码。
+- 优先考虑爬虫工作流的**可读性、效率和可维护性**。
+- 使用模块化、可复用的函数处理通用爬虫任务。
+- 使用适当工具处理动态和复杂网站（如 Selenium、agentQL）。
+- 遵循 **PEP 8** 风格指南。
 
-        General Web Scraping:
-        - Use requests for simple HTTP GET/POST requests to static websites.
-        - Parse HTML content with BeautifulSoup for efficient data extraction.
-        - Handle JavaScript-heavy websites with selenium or headless browsers.
-        - Respect website terms of service and use proper request headers (e.g., User-Agent).
-        - Implement rate limiting and random delays to avoid triggering anti-bot measures.
+## 通用网页爬虫
 
-        Text Data Gathering:
-        - Use jina or firecrawl for efficient, large-scale text data extraction.
-            - Jina: Best for structured and semi-structured data, utilizing AI-driven pipelines.
-            - Firecrawl: Preferred for crawling deep web content or when data depth is critical.
-        - Use jina when text data requires AI-driven structuring or categorization.
-        - Apply firecrawl for tasks that demand precise and hierarchical exploration.
+- 使用 `requests` 处理简单 HTTP GET/POST 请求（静态网站）。
+- 使用 `BeautifulSoup` 解析 HTML 内容，高效提取数据。
+- 使用 `selenium` 或无头浏览器处理 **JavaScript 密集型网站**。
+- 遵守网站服务条款，使用正确的请求头（如 `User-Agent`）。
+- 实施**速率限制和随机延迟**，避免触发反爬机制。
 
-        Handling Complex Processes:
-        - Use agentQL for known, complex processes (e.g., logging in, form submissions).
-            - Define clear workflows for steps, ensuring error handling and retries.
-            - Automate CAPTCHA solving using third-party services when applicable.
-        - Leverage multion for unknown or exploratory tasks.
-            - Examples: Finding the cheapest plane ticket, purchasing newly announced concert tickets.
-            - Design adaptable, context-aware workflows for unpredictable scenarios.
+## 文本数据采集
 
-        Data Validation and Storage:
-        - Validate scraped data formats and types before processing.
-        - Handle missing data by flagging or imputing as required.
-        - Store extracted data in appropriate formats (e.g., CSV, JSON, or databases such as SQLite).
-        - For large-scale scraping, use batch processing and cloud storage solutions.
+根据数据特征选择合适的工具：
 
-        Error Handling and Retry Logic:
-        - Implement robust error handling for common issues:
-            - Connection timeouts (requests.Timeout).
-            - Parsing errors (BeautifulSoup.FeatureNotFound).
-            - Dynamic content issues (Selenium element not found).
-        - Retry failed requests with exponential backoff to prevent overloading servers.
-        - Log errors and maintain detailed error messages for debugging.
+| 工具 | 适用场景 |
+|------|----------|
+| **jina** | 结构化和半结构化数据，利用 AI 驱动的管道；需要 AI 驱动的结构化或分类时使用 |
+| **firecrawl** | 深层网络内容爬取，数据深度至关重要时；需要精确的层次化探索时使用 |
 
-        Performance Optimization:
-        - Optimize data parsing by targeting specific HTML elements (e.g., id, class, or XPath).
-        - Use asyncio or concurrent.futures for concurrent scraping.
-        - Implement caching for repeated requests using libraries like requests-cache.
-        - Profile and optimize code using tools like cProfile or line_profiler.
+## 复杂流程处理
 
-        Dependencies:
-        - requests
-        - BeautifulSoup (bs4)
-        - selenium
-        - jina
-        - firecrawl
-        - agentQL
-        - multion
-        - lxml (for fast HTML/XML parsing)
-        - pandas (for data manipulation and cleaning)
+- 使用 **agentQL** 处理已知复杂流程（如登录、表单提交）：
+  - 定义清晰的工作流步骤，确保错误处理和重试。
+  - 必要时集成第三方服务自动解决验证码。
+- 使用 **multion** 处理未知或探索性任务：
+  - 示例：查找最便宜的机票、购买新发布的演唱会门票。
+  - 为不可预测场景设计自适应、上下文感知的工作流。
 
-        Key Conventions:
-        1. Begin scraping with exploratory analysis to identify patterns and structures in target data.
-        2. Modularize scraping logic into clear and reusable functions.
-        3. Document all assumptions, workflows, and methodologies.
-        4. Use version control (e.g., git) for tracking changes in scripts and workflows.
-        5. Follow ethical web scraping practices, including adhering to robots.txt and rate limiting.
-        Refer to the official documentation of jina, firecrawl, agentQL, and multion for up-to-date APIs and best practices.
+## 数据验证与存储
 
-        
+- 在处理前验证爬取数据的格式和类型。
+- 通过标记或按需填充处理缺失数据。
+- 以适当格式存储提取的数据（CSV、JSON 或数据库如 SQLite）。
+- 大规模爬取时使用**批处理和云存储方案**。
+
+## 错误处理与重试逻辑
+
+针对常见问题实施健壮的错误处理：
+
+| 问题类型 | 示例 |
+|----------|------|
+| 连接超时 | `requests.Timeout` |
+| 解析错误 | `BeautifulSoup.FeatureNotFound` |
+| 动态内容问题 | Selenium 元素未找到 |
+
+- 使用**指数退避**重试失败请求，防止服务器过载。
+- 记录错误并维护详细的错误消息以便调试。
+
+## 性能优化
+
+- 通过定位特定 HTML 元素（id、class 或 XPath）优化数据解析。
+- 使用 `asyncio` 或 `concurrent.futures` 实现并发爬取。
+- 使用 `requests-cache` 等库为重复请求实施缓存。
+- 使用 `cProfile` 或 `line_profiler` 进行代码性能分析和优化。
+
+## 关键依赖
+
+| 库 | 用途 |
+|----|------|
+| `requests` | HTTP 请求 |
+| `BeautifulSoup (bs4)` | HTML 解析 |
+| `selenium` | 动态页面爬取 |
+| `jina` | AI 驱动数据提取 |
+| `firecrawl` | 深层网络爬取 |
+| `agentQL` | 复杂流程自动化 |
+| `multion` | 探索性任务处理 |
+| `lxml` | 快速 HTML/XML 解析 |
+| `pandas` | 数据操作与清洗 |
+
+## 关键约定
+
+1. 以探索性分析开始爬取，识别目标数据的模式和结构。
+2. 将爬虫逻辑模块化为清晰、可复用的函数。
+3. 记录所有假设、工作流和方法论。
+4. 使用版本控制（如 git）跟踪脚本和工作流的变更。
+5. 遵循**伦理爬虫实践**，包括遵守 `robots.txt` 和速率限制。

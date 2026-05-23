@@ -1,11 +1,9 @@
 ---
-description: 
-globs: 
-alwaysApply: true
----
----
-description: Guidelines and best practices for building full-stack website on EdgeOne Pages based on serverless deployment from frontend Pages to dynamic APIs, ideal for building modern Web projects like marketing websites and AI applications
-globs: **/*.{ts,tsx,js,jsx,toml,json}
+title: EdgeOne Pages 全栈开发规范
+slug: edgeone-pages
+summary: EdgeOne Pages 全栈开发规范，涵盖 Edge Functions、Node Functions、智能代码放置系统和多平台集成。
+description: 一份面向 EdgeOne Pages 平台的全栈开发指南，包括静态站点生成、Edge Functions、Node Functions、智能代码放置系统（中英文关键词自动路由）、多平台集成（Shopify、Sanity、Supabase、Stripe）以及国际化支持等核心实践。
+globs: "**/*.{ts,tsx,js,jsx,toml,json}"
 ---
 
 <system_context>
