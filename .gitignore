@@ -11,6 +11,9 @@ desktop.ini
 .cursor/
 .trae/
 .agents/
+.claude/
+
+# Claude
 CLAUDE.md
 
 # Dependencies & build outputs

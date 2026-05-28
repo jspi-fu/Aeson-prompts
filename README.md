@@ -110,6 +110,8 @@
 ## 💻 [AI编程](AI编程/README.md)
 ---
 
+- **[30 天工作流复盘.md](AI编程/workflow-audit-30-days.md)** - 通过回顾在 Codex 内的 30 天工作历史，识别重复性手动工作流并沉淀为 Skill、Subagent 或 Automation 的系统化指南。
+
 ### 🔙 后端
 
 - **[Django.md](AI编程/后端/Django.md)** - Django 与可扩展 Web 应用的开发规范，涵盖 MVT 模式、ORM 实践、错误处理、性能优化和安全最佳实践
