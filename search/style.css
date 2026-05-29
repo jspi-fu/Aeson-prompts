@@ -749,6 +749,32 @@ body {
     margin: 0.5em 0;
 }
 
+/* 荧光笔标记语法 #概念# */
+.highlight-marker {
+    display: inline;
+    padding: 0.1em 0.3em;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+/* 单色荧光笔（无冒号时） */
+.highlight-marker--single {
+    background: rgba(255, 230, 0, 0.35);
+    color: inherit;
+}
+
+/* 双色荧光笔：冒号前（青绿色） */
+.highlight-marker--before {
+    background: rgba(0, 200, 150, 0.3);
+    color: inherit;
+}
+
+/* 双色荧光笔：冒号后（粉橙色） */
+.highlight-marker--after {
+    background: rgba(255, 100, 50, 0.25);
+    color: inherit;
+}
+
 
 
 /* ========================================

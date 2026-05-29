@@ -429,10 +429,44 @@ function applyViewMode() {
 function renderMarkdown(content) {
     if (!content) return '';
     if (window.marked) {
-        return window.marked.parse(content, { breaks: true });
+        const html = window.marked.parse(content, { breaks: true });
+        return processHighlightMarkers(html);
     }
     // 降级：将纯文本做基础转义后包裹
     return `<pre>${content.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>`;
+}
+
+/**
+ * 处理荧光标记语法 #概念# 或 #概念：解释#
+ * 规则：
+ * - 两个 # 之间不含换行符，开头结尾不是空格
+ * - 有冒号（中文/英文）时，冒号前后用不同颜色
+ */
+function processHighlightMarkers(html) {
+    // 匹配 #内容#，内容不以空格开头/结尾，不含 # 和换行
+    return html.replace(/#([^#\s][^#\n]*[^#\s])#/g, (match, inner) => {
+        // 检查是否包含冒号（中文或英文）
+        const colonIndex = inner.search(/[:：]/);
+        if (colonIndex !== -1) {
+            const before = inner.slice(0, colonIndex);
+            const after = inner.slice(colonIndex + 1);
+            // 冒号前后都不为空时才分色
+            if (before && after) {
+                return `<span class="highlight-marker highlight-marker--before">${escapeHtml(before)}</span>` +
+                       `<span style="margin:0 0.15em;color:#999">:</span>` +
+                       `<span class="highlight-marker highlight-marker--after">${escapeHtml(after)}</span>`;
+            }
+        }
+        // 无冒号或冒号一侧为空，使用单色
+        return `<span class="highlight-marker highlight-marker--single">${escapeHtml(inner)}</span>`;
+    });
+}
+
+/**
+ * 转义 HTML 特殊字符
+ */
+function escapeHtml(text) {
+    return text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
 /**

@@ -8,10 +8,10 @@
 本项目用于集中展示各类 AI 提示词与规范。覆盖日常使用与专业编程，以下按目录结构列出所有提示词与规范，便于快速定位。
 
 > [!NOTE]
-> **📚 作者全新力作！** 专为零基础学习者打造的 AI 编程入门教程 —— [【hello-vibe】](https://gitee.com/ye_sheng0839/hello-vibe)
+> **📚 配套产品发布！** 支持`变量语法`与`提示词生成&优化`的提示词管理插件 —— [【Prompt Master】](https://gitee.com/ye_sheng0839/prompt-master)
 > 
-> 从 Vibe Coding 核心理念到实战技巧，帮助你完成从程序员到项目师的思维转变。
-> 在线阅读：👉 **<https://hello-vibe.311factory.top>** 👈
+> 本项目内提示词已完成变量语法适配，搭配插件使用，一站式解决跨平台提示词生成、收集、管理、优化问题~
+> 👉 [点击从 Microsoft Store 安装](https://microsoftedge.microsoft.com/addons/detail/promptmaster/decdbjbmghcogkbpjpfknillkabahdni)  👈
 
 > [!TIP]
 > 🎉 **2026.2.23 内容迁移！**：论文撰写相关内容已作为独立项目进行维护，论文写作经验+提示词+ skills 一键获取！新项目地址为：**<https://gitee.com/ye_sheng0839/paper-writing>**
@@ -110,7 +110,7 @@
 ## 💻 [AI编程](AI编程/README.md)
 ---
 
-- **[30 天工作流复盘.md](AI编程/workflow-audit-30-days.md)** - 通过回顾在 Codex 内的 30 天工作历史，识别重复性手动工作流并沉淀为 Skill、Subagent 或 Automation 的系统化指南。
+- **[30 天工作流复盘.md](AI编程/30DaysReview.md)** - 通过回顾在 Codex 内的 30 天工作历史，识别重复性手动工作流并沉淀为 Skill、Subagent 或 Automation 的系统化指南。
 
 ### 🔙 后端
 
