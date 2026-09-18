@@ -24,27 +24,6 @@
 - **[提示词设计(单轮模拟).md](提示词设计(单轮模拟).md)** - 模块化可复用提示词模板设计，单轮模拟，一次交付
 - **[提示词设计(多轮交互).md](提示词设计(多轮交互).md)** - 英文原版4-D方法论优化提示词，多轮交互，明确需求
 
-## 🏛️ 官方提示词
----
-### 🤖 Gemini 3
-
-- **[en.md](官方提示词/Gemini3/en.md)** - 原版英文Gemini 3系统提示词，九大核心推理规划原则
-- **[zh.md](官方提示词/Gemini3/zh.md)** - Gemini 3系统提示词中文翻译版
-
-### 🤖 Claude
-
-- **[ClaudeOpusLatest.md](官方提示词/Claude/ClaudeOpusLatest.md)** - Claude Opus 4.7 最新系统提示词
-- **[ClaudeDesign.md](官方提示词/Claude/ClaudeDesign.md)** - Claude Design 系统提示词，可学习借鉴
-
-### 🤖 Kiro
-
-- **[System.md](官方提示词/Kiro/System.md)** - Kiro AI助手系统提示词
-- **[vibe.md](官方提示词/Kiro/vibe.md)** - Kiro Vibe模式提示词
-- **[spec.md](官方提示词/Kiro/spec.md)** - Kiro Spec模式提示词
-
-> 更多官方提示词请参考：https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools
-
-
 ## 📱 日常使用
 ---
 ### 🎨 图片生成
@@ -106,10 +85,6 @@
 - **[造物主.md](日常使用/角色扮演/造物主.md)** - 可执行语言引擎，将故事转化为结构再转化为系统
 - **[辩论师.md](日常使用/角色扮演/辩论师.md)** - 扮演学者角色，通过论据、细节和逻辑挑战你的观点，帮你发现论证漏洞
 - **[人生设计师.md](日常使用/角色扮演/人生设计师.md)** - 用斯坦福人生设计课方法，通过多轮深度对话帮你分清重力问题与真问题，生成三个可落地的五年人生版本
-
-### 🤖 DeepSeek 专题
-
-- **[DeepSeek专题.md](日常使用/DeepSeek专题.md)** - DeepSeek 客户端的 MAX 思考模式、角色扮演模式和纯分析模式配置
 
 ## 💻 [AI编程](AI编程/README.md)
 ---
