@@ -14,8 +14,7 @@ const README_PATH = path.join(ROOT_DIR, 'README.md');
 // 需要扫描的目录
 const CATEGORIES = {
   '日常使用': 'daily',
-  'AI编程': 'coding',
-  '官方提示词': 'official'
+  'AI编程': 'coding'
 };
 
 /**
