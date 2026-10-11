@@ -37,7 +37,8 @@ function extractDescriptions() {
 
     while ((match = pattern.exec(readmeContent)) !== null) {
       const [, filename, filepath, description] = match;
-      descriptions[filepath] = description.trim();
+      // README 里的路径写法与 clone 出来的实际文件名可能大小写不同，统一按小写归档
+      descriptions[filepath.toLowerCase()] = description.trim();
     }
 
     console.log(`📝 从 README 提取了 ${Object.keys(descriptions).length} 条描述`);
@@ -127,7 +128,7 @@ function buildIndex() {
     try {
       const rawContent = fs.readFileSync(file.fullPath, 'utf-8');
       const content = stripFrontmatter(rawContent);
-      const description = descriptions[file.relativePath] || '';
+      const description = descriptions[file.relativePath.toLowerCase()] || '';
 
       if (index % 50 === 0) {
         console.log(`⚙️  处理进度: ${index + 1}/${allPrompts.length}`);
