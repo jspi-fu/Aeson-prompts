@@ -155,5 +155,9 @@
 - **[Codex.md](AI编程/全局提示词/ReliableCoding/Codex.md)** - 适用于 Codex CLI 的可靠编码行为准则与开发流程
 - **[GeminiCli.md](AI编程/全局提示词/ReliableCoding/GeminiCli.md)** - 适用于 Gemini CLI 的可靠编码行为准则与开发流程
 
+#### 🔍 上下文审计
+
+- **[AI上下文审计.md](AI编程/全局提示词/AI上下文审计.md)** - 系统性审计已积累的自定义指令、Skills、AGENTS.md、CLAUDE.md 与记忆，区分确认问题与主观判断，并给出保留、精简、核实或弃用的分级建议
+
 
 
