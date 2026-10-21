@@ -1,6 +1,6 @@
 ![Cover](assets/Cover.png)
 <div align="center">
-  <a href="https://gitee.com/ye_sheng0839/awesome-prompts/stargazers"><img src="https://gitee.com/ye_sheng0839/awesome-prompts/badge/star.svg?theme=dark" alt="Stars"></a>
+  <a href="https://gitee.com/jspi-aeson/awesome-prompts/stargazers"><img src="https://gitee.com/jspi-aeson/awesome-prompts/badge/star.svg?theme=dark" alt="Stars"></a>
   <a href="https://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache%202.0-green.svg" alt="License"></a>
   <a href="https://awesome-prompts.311factory.top/"><img src="https://img.shields.io/badge/Website-311factory.top-blue" alt="Website"></a>
 </div>
@@ -8,13 +8,13 @@
 本项目用于集中展示各类 AI 提示词与规范。覆盖日常使用与专业编程，以下按目录结构列出所有提示词与规范，便于快速定位。
 
 > [!NOTE]
-> **📚 配套产品发布！** 支持`变量语法`与`提示词生成&优化`的提示词管理插件 —— [【Prompt Master】](https://gitee.com/ye_sheng0839/prompt-master)
+> **📚 配套产品发布！** 支持`变量语法`与`提示词生成&优化`的提示词管理插件 —— [【Prompt Master】](https://gitee.com/jspi-aeson/prompt-master)
 > 
 > 本项目内提示词已完成变量语法适配，搭配插件使用，一站式解决跨平台提示词生成、收集、管理、优化问题~
 > 👉 [点击从 Microsoft Store 安装](https://microsoftedge.microsoft.com/addons/detail/promptmaster/decdbjbmghcogkbpjpfknillkabahdni)  👈
 
 > [!TIP]
-> 🎉 **2026.2.23 内容迁移！**：论文撰写相关内容已作为独立项目进行维护，论文写作经验+提示词+ skills 一键获取！新项目地址为：**<https://gitee.com/ye_sheng0839/paper-writing>**
+> 🎉 **2026.2.23 内容迁移！**：论文撰写相关内容已作为独立项目进行维护，论文写作经验+提示词+ skills 一键获取！新项目地址为：**<https://gitee.com/jspi-aeson/paper-writing>**
 >
 >
 > **2026.1.24 网页搜索！**：直接在网页中浏览、搜索、复制&下载，地址：**<https://awesome-prompts.311factory.top/>**
